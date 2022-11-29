@@ -1,22 +1,68 @@
 body {
     font-family: 'Inter', sans-serif;
+    padding: 1em;
+    z-index: 1;
 }
-
-.hamMenuButton {
+#hamMenuButton {
+    float: right;
     border-style: none;
+    background-color: #fff;
 }
-
+#hamMenuButton:hover {
+    cursor: pointer;
+}
+#cancelButton {
+    float: right;
+    border-style: none;
+    background-color: #fff;
+}
+#cancelButton:hover {
+    cursor: pointer;
+}
+#hiddenNavBlock {
+    width: 50%;
+    height: 100%;
+    z-index: 5;
+    display: none;
+    float: right;
+}
 li {
     list-style: none;
+    line-height: 4em;
+    padding-right: 2em;
 }
-
 .new {
     color: hsl(35, 77%, 62%);
 }
-.newWrapper {
+.blueWrapper {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.midWrapper {
     padding: 1em;
     background-color: hsl(240, 100%, 5%);
     color: #fff;
+}
+h1 {
+    font-size: 3.5em;
+}
+.heroText {
+    font-size: 20px;
+}
+.readButton {
+    background-color: hsl(14, 88%, 65%);
+    padding: 1em;
+    width: 12em;
+    border-style: none;
+    font-size: x-large;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.heroImg {
+    width: 100%;
+}
+.readButton:hover {
+    cursor: pointer;
 }
 .h3Wrapper1 {
     border-bottom-style: solid;
@@ -26,15 +72,64 @@ li {
     border-bottom-style: solid;
     border-width: 1px;
 }
-
+/*
 .wrapper1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: -5em;
 }
-
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.wrapper1 {
+    display: flex;
+}
+.wrapper2 {
+    display: flex;
+}
+.wrapper3 {
+    display: flex;
+}
+.number {
+    margin-top: -.005em;
+    color: hsl(240, 6%, 50%);
+    font-size: 10vw;
+}
+.footerImg {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.footerText {
+    margin-top: -1em;
+    font-size: 4vw;
+}
+.footerText1 {
+    float: right;
+    flex: 50%;
+    padding: 0 0 0 2em;
+}
+.footerText2 {
+    float: right;
+    flex: 50%;
+    padding: 0 0 0 2em;
+}
+.footerText3 {
+    float: right;
+    flex: 50%;
+    padding: 0 0 0 2em;
+}
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }  
 .attribution a { 
     color: hsl(228, 45%, 44%); 
