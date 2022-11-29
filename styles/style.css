@@ -60,6 +60,7 @@ h1 {
 }
 .heroImg {
     width: 100%;
+    padding-top: 3em;
 }
 .readButton:hover {
     cursor: pointer;
