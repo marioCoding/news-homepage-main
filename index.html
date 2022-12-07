@@ -13,9 +13,9 @@
 
   <title>Frontend Mentor | ----News homepage</title>
 </head>
-<body>
 
-<img src="./assets/images/logo.svg" alt="logo">
+<header>
+<img src="./assets/images/logo.svg" alt="logo" class="logoImg">
 <button id="hamMenuButton"><img src="./assets/images/icon-menu.svg" alt="hamMenu"></button>
 <div id="hiddenNavBlock">
   <button id="cancelButton"><img src="./assets/images/icon-menu-close.svg" alt="closeHamMenu"></button>
@@ -29,76 +29,86 @@
     </ul>
   </nav>
 </div>
+</header>
 
+<div class="midSectionWrapper">
+  <div class="hero">
   <img src="./assets/images/image-web-3-mobile.jpg" alt="heroImg" class="heroImg">
   <div class="heroWrapper">
     <h1>The Bright Future of Web 3.0?</h1>
 
+    <div class="textButtonWrapper">
     <p class="heroText">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
         But is it really fulfilling its promise?</p>
+    <button class="readButton">READ MORE</button>
+    </div>
   </div>
-
-  <button class="readButton">READ MORE</button>
+  </div>
 
   <div class="blueWrapper">
-  <div class="midWrapper">
-  <h2 class="new">New</h2>
-  
-  <div class="h3Wrapper1">
-  <h3>Hydrogen VS Electric Cars</h3>
-  <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-  </div>
+    <div class="midWrapper">
+    <h2 class="new">New</h2>
 
-  <div class="h3Wrapper2">
-  <h3>The Downsides of AI Artistry</h3>
-  <p>What are the possible adverse effects of on-demand AI image generation?</p>
-  </div> 
+    <div class="h3Wrapper">
+    <div class="h3Wrapper1">
+    <h3>Hydrogen VS Electric Cars</h3>
+    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+    </div>
 
-  <div class="h3Wrapper3">
-  <h3>Is VC Funding Drying Up?</h3>
-  <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-  </div>
-  </div>
-  </div>
+    <div class="h3Wrapper2">
+    <h3>The Downsides of AI Artistry</h3>
+    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+    </div> 
 
-
-  <div class="wrapper1">
-  <img src="./assets/images/image-retro-pcs.jpg" alt="retroPC" class="footerImg">
-  <div class="footerText1">
-  <h2 class="number">01</h2>
-    <div class="footerText">
-      <h3>Reviving Retro PCs</h3>
-      <p>What happens when old PCs are given modern upgrades?</p>
+    <div class="h3Wrapper3">
+    <h3>Is VC Funding Drying Up?</h3>
+    <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+    </div>
     </div>
   </div>
-  </div>
+</div>
+</div>
 
-  <div class="wrapper2">
-  <img src="./assets/images/image-top-laptops.jpg" alt="laptops" class="footerImg">
-  <div class="footerText2">
-  <h2 class="number">02</h2>
-    <div class="footerText">
-      <h3>Top 10 Laptops of 2022</h3>
-      <p>Our best picks for various needs and budgets.</p>
-    </div>
+<footer> 
+<div class="wrapper1">
+<img src="./assets/images/image-retro-pcs.jpg" alt="retroPC" class="footerImg">
+<div class="footerText1">
+<h2 class="number">01</h2>
+  <div class="footerText">
+    <h3>Reviving Retro PCs</h3>
+    <p>What happens when old PCs are given modern upgrades?</p>
   </div>
-  </div>  
+</div>
+</div>
 
-  <div class="wrapper3">
-  <img src="./assets/images/image-gaming-growth.jpg" alt="gaming" class="footerImg">
-  <div class="footerText3">
-  <h2 class="number">03</h2>
-    <div class="footerText">
-      <h3>The Growth of Gaming</h3>
-      <p>How the pandemic has sparked fresh opportunities.</p>
-    </div>
+<div class="wrapper2">
+<img src="./assets/images/image-top-laptops.jpg" alt="laptops" class="footerImg">
+<div class="footerText2">
+<h2 class="number">02</h2>
+  <div class="footerText">
+    <h3>Top 10 Laptops of 2022</h3>
+    <p>Our best picks for various needs and budgets.</p>
   </div>
-  </div>
+</div>
+</div>  
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/marioCoding/news-homepage-main">Mario Salinas</a>.
+<div class="wrapper3">
+<img src="./assets/images/image-gaming-growth.jpg" alt="gaming" class="footerImg">
+<div class="footerText3">
+<h2 class="number">03</h2>
+  <div class="footerText">
+    <h3>The Growth of Gaming</h3>
+    <p>How the pandemic has sparked fresh opportunities.</p>
   </div>
-  <script src="./scripts/main.js" type="text/javascript"></script>
+</div>
+</div>
+</footer>
+
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/marioCoding/news-homepage-main">Mario Salinas</a>.
+</div>
+<script src="./scripts/main.js" type="text/javascript"></script>
 </body>
 </html>
